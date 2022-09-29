@@ -19,7 +19,7 @@ from rest_framework.routers import DefaultRouter,SimpleRouter
 
 from authors.views import AuthorModelViewSet, BookModelViewSet, BiographiesModelViewSet
 
-router = SimpleRouter()
+router = DefaultRouter()
 router.register('authors', AuthorModelViewSet)
 router.register('books', BookModelViewSet)
 router.register('biographies', BiographiesModelViewSet)
