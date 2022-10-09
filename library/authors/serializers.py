@@ -23,3 +23,4 @@ class BookModelSerializer(ModelSerializer):
     class Meta:
         model = Book
         fields = '__all__'
+# ugubhokbnkngiyxk
